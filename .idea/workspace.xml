@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f72e3715-5917-4e7a-bbc9-0c55ff936f76" name="Default Changelist" comment="c">
-      <change beforePath="$PROJECT_DIR$/.idea/watir-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watir-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/happy-path.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/happy-path.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pages/joto_form_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/joto_form_page.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/happy-path-steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/happy-path-steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/utilities/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/features/test-data/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,7 @@
       <updated>1590769106158</updated>
       <workItem from="1590769107262" duration="768000" />
       <workItem from="1590773833382" duration="13983000" />
-      <workItem from="1590855438023" duration="11206000" />
+      <workItem from="1590855438023" duration="11516000" />
     </task>
     <servers />
   </component>

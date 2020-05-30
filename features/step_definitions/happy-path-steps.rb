@@ -14,7 +14,7 @@ Then(/^user on page with file upload$/) do
 end
 
 When(/^user uploads file$/) do
-  @joto_form_page.upload_field.set(File.expand_path(File.dirname('test.txt')) + '/features/utilities/test.txt')
+  @joto_form_page.upload_field.set(File.expand_path(File.dirname('test.txt')) + '/features/test-data/test.txt')
 end
 
 Then(/^user sees element with file upload status$/) do
