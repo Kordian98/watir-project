@@ -10,7 +10,7 @@ When(/^user clicks next button on welcome page$/) do
 end
 
 Then(/^user on page with file upload$/) do
-  expect(@joto_form_page.upload_field.exists?).to be true
+  expect(@joto_form_page.browse_files_button.present?).to be true
 end
 
 When(/^user uploads file$/) do

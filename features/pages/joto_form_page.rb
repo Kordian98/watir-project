@@ -21,6 +21,10 @@ class JotoFormPage
     @browser.file_field(css: '#input_8')
   end
 
+  def browse_files_button
+    @browser.element(css: 'div.jfUpload-button')
+  end
+
   def li_success
     @browser.element(css: 'li.qq-upload-success')
   end
