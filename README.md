@@ -1,6 +1,6 @@
 
 • Automate and attach automation test results(test execution log) in the
-repository <b><== Cucumber automaticly creates a html-based raport with test reasults if we use "cucumber -f html -o 'logfile.html' features/happy-path.feature" command. Exemplary report available in this repo, name of file is logfile.html, direct link: https://github.com/Kordian98/watir-project/blob/master/logfile.html</b>
+repository <b><== Cucumber automaticly creates a html-based report with test reasults if we use "cucumber -f html -o 'logfile.html' features/happy-path.feature" command. Exemplary report available in this repo, name of file is logfile.html, direct link: https://github.com/Kordian98/watir-project/blob/master/logfile.html</b>
 
 • Add COMMENTS or implement the automation in such a way that would work
 even with the form being in different locale/language (you can assume your
