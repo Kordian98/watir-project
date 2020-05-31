@@ -10,6 +10,7 @@ When(/^user clicks next button on welcome page$/) do
 end
 
 Then(/^user on page with file upload$/) do
+  @joto_form_page.browse_files_button.wait_until(&:present?)
   expect(@joto_form_page.browse_files_button.present?).to be true
 end
 
@@ -44,6 +45,7 @@ When(/^user clicks next button on signature upload page$/) do
 end
 
 Then(/^user on page with phone number and area code fields$/) do
+  @joto_form_page.area_code.wait_until(&:present?)
   expect(@joto_form_page.area_code.present?).to be true
   expect(@joto_form_page.phone_number.present?).to be true
 end
@@ -55,6 +57,7 @@ When(/^user fills data on phone number page and clicks next button$/) do
 end
 
 Then(/^user on page with security question field$/) do
+  @joto_form_page.security_question_dropdown.wait_until(&:present?)
   expect(@joto_form_page.security_question_dropdown.present?).to be true
   expect(@joto_form_page.security_answer.present?).to be true
 end
@@ -66,6 +69,7 @@ When(/^user selects security question and answer and clicks next button$/) do
 end
 
 Then(/^user on page with e-mail field$/) do
+  @joto_form_page.email.wait_until(&:present?)
   expect(@joto_form_page.email.present?).to be true
 end
 
@@ -76,5 +80,6 @@ When(/^user fills e-mail field and clicks next button$/) do
 end
 
 Then(/^user on "Thank You" page$/) do
+  @joto_form_page.thank_you_image.wait_until(&:present?)
   expect(@joto_form_page.thank_you_image.present?).to be true
 end
