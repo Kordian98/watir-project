@@ -14,4 +14,4 @@ My way to create this project:
 3. I created project based on this one above and my own solutions
   
 
-I feel like nothing more needs explainations, but if there appears any questions I will answer it. :)
+I feel like nothing more needs explainations, but if there appears any questions I will answer. :)
