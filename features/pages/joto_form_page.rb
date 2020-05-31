@@ -6,7 +6,7 @@ class JotoFormPage
   end
 
   def welcome_next
-    @browser.button(css: '#jfCard-welcome-start')
+    @browser.button(xpath: '//*[@id="jfCard-welcome-start"]')
   end
 
   def next_page(cid_number)
