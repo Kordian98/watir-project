@@ -1,12 +1,12 @@
 class JotoFormPage
   include PageObject
 
-  def get_joto_page
+  def go_joto_page
     @browser.goto 'https://form.jotform.com/200843963230350'
   end
 
   def welcome_next
-    @browser.button(id: 'jfCard-welcome-start')
+    @browser.button(css: '#jfCard-welcome-start')
   end
 
   def next_page(cid_number)
@@ -18,7 +18,7 @@ class JotoFormPage
   end
 
   def upload_field
-    @browser.file_field(id: 'input_8')
+    @browser.file_field(css: '#input_8')
   end
 
   def li_success
@@ -34,22 +34,31 @@ class JotoFormPage
   end
 
   def area_code
-    @browser.input(id: 'input_9_area')
+    @browser.input(css: '#input_9_area')
   end
 
   def phone_number
-    @browser.input(id: 'input_9_phone')
+    @browser.input(css: '#input_9_phone')
+  end
+
+  def security_question_dropdown
+    @browser.element(css: 'div.jfDropdown-chipContainer')
   end
 
   def security_question
-    @browser.select_list(id: 'input_12_field_1')
+    @browser.select_list(css: '#input_12_field_1')
   end
 
   def security_answer
-    @browser.input(id: 'input_12_field_2')
+    @browser.input(css: '#input_12_field_2')
   end
 
   def email
-    @browser.input(id: 'input_11')
+    @browser.input(css: '#input_11')
   end
+
+  def thank_you_image
+    @browser.element(css: '#jfThankYou-type-svg')
+  end
+
 end

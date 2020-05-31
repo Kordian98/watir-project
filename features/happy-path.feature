@@ -17,4 +17,4 @@ Feature: Joto Form Filling
     When user selects security question and answer and clicks next button
     Then user on page with e-mail input
     When user fills e-mail input and clicks next button
-    Then user on "Thanks You" page
+    Then user on "Thank You" page
