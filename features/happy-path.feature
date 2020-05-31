@@ -11,10 +11,10 @@ Feature: Joto Form Filling
     When user signs on canvas
     Then there appears hidden element with canvas signed information
     When user clicks next button on signature upload page
-    Then user on page with phone number and area code inputs
+    Then user on page with phone number and area code fields
     When user fills data on phone number page and clicks next button
-    Then user on page with security question input
+    Then user on page with security question field
     When user selects security question and answer and clicks next button
-    Then user on page with e-mail input
-    When user fills e-mail input and clicks next button
+    Then user on page with e-mail field
+    When user fills e-mail field and clicks next button
     Then user on "Thank You" page

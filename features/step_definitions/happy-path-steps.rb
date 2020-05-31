@@ -43,7 +43,7 @@ When(/^user clicks next button on signature upload page$/) do
   @joto_form_page.next_page('7').click
 end
 
-Then(/^user on page with phone number and area code inputs$/) do
+Then(/^user on page with phone number and area code fields$/) do
   expect(@joto_form_page.area_code.present?).to be true
   expect(@joto_form_page.phone_number.present?).to be true
 end
@@ -54,7 +54,7 @@ When(/^user fills data on phone number page and clicks next button$/) do
   @joto_form_page.next_page('9').click
 end
 
-Then(/^user on page with security question input$/) do
+Then(/^user on page with security question field$/) do
   expect(@joto_form_page.security_question_dropdown.present?).to be true
   expect(@joto_form_page.security_answer.present?).to be true
 end
@@ -65,11 +65,11 @@ When(/^user selects security question and answer and clicks next button$/) do
   @joto_form_page.next_page('12').click
 end
 
-Then(/^user on page with e-mail input$/) do
+Then(/^user on page with e-mail field$/) do
   expect(@joto_form_page.email.present?).to be true
 end
 
-When(/^user fills e-mail input and clicks next button$/) do
+When(/^user fills e-mail field and clicks next button$/) do
   @joto_form_page.email.focus
   @joto_form_page.email.send_keys('example@example.com')
   @joto_form_page.submit.click
